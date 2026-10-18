@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "reg") (type "KiCad") (uri "${KIPRJMOD}/libraries/reg.pretty") (options "") (descr "Reconstructed unchanged geometry from supplied challenge board"))
+  (lib (name "adder") (type "KiCad") (uri "${KIPRJMOD}/libraries/adder.pretty") (options "") (descr "Reconstructed unchanged geometry from supplied challenge board"))
+  (lib (name "3v3_ldo") (type "KiCad") (uri "${KIPRJMOD}/libraries/3v3_ldo.pretty") (options "") (descr "Reconstructed unchanged geometry from supplied challenge board"))
+)
