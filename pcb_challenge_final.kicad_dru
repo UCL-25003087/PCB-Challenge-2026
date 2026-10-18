@@ -1,0 +1,10 @@
+(version 1)
+# Practice-project engineering assumption; not an organiser waiver.
+# Global floor is 0.18 mm; keep the previous 0.25 mm rule everywhere else.
+(rule "General hole to copper clearance"
+  (constraint hole_clearance (min 0.25mm)))
+# Measured J3 internal clearance is approximately 0.1847 mm.
+# No footprint or drill geometry has been altered.
+(rule "J3 internal pad and NPTH clearance"
+  (condition "A.memberOfFootprint('J3') && B.memberOfFootprint('J3')")
+  (constraint hole_clearance (min 0.18mm)))
