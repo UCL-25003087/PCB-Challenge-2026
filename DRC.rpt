@@ -1,0 +1,141 @@
+** Drc report for pcb_challenge_final.kicad_pcb **
+** Created on 2026-10-18T16:03:53 **
+** Report includes: Errors, Warnings **
+
+** Found 5 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(109.9000 mm, 63.5000 mm): Rectangle on Edge.Cuts
+    @(120.5450 mm, 79.3750 mm): Segment of U25 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(109.9000 mm, 63.5000 mm): Rectangle on Edge.Cuts
+    @(136.1450 mm, 58.6750 mm): Segment of U25 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'ESP32-S2-MINI-1' does not match copy in library 'RF_Module'
+    Local override; warning
+    @(128.3450 mm, 69.0250 mm): Footprint U25
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(141.2838 mm, 88.8532 mm): Footprint text of U22 (*)
+    @(141.2838 mm, 88.8532 mm): Footprint text of U22 (*)
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(161.2838 mm, 88.8532 mm): Footprint text of U28 (*)
+    @(161.2838 mm, 88.8532 mm): Footprint text of U28 (*)
+
+** Found 0 unconnected pads **
+
+** Found 35 Footprint errors **
+[net_conflict]: Pad net (rst) doesn't match net given by schematic (NRST)
+    Local override; warning
+    @(129.4200 mm, 122.0000 mm): Pad 1 [rst] of C9 on F.Cu
+[net_conflict]: No pad found for pin S1 (Net-(J3-SHIELD)) in schematic
+    Local override; warning
+    @(114.9000 mm, 87.0000 mm): Footprint J3
+[net_conflict]: No pad found for pin A10 in schematic
+    Local override; warning
+    @(114.9000 mm, 87.0000 mm): Footprint J3
+[net_conflict]: No pad found for pin A11 in schematic
+    Local override; warning
+    @(114.9000 mm, 87.0000 mm): Footprint J3
+[net_conflict]: No pad found for pin A2 in schematic
+    Local override; warning
+    @(114.9000 mm, 87.0000 mm): Footprint J3
+[net_conflict]: No pad found for pin A3 in schematic
+    Local override; warning
+    @(114.9000 mm, 87.0000 mm): Footprint J3
+[footprint_symbol_mismatch]: Value (SW2) doesn't match symbol value (SW_Push)
+    Local override; warning
+    @(121.9000 mm, 131.5000 mm): Footprint SW2
+[footprint_symbol_mismatch]: Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile doesn't match footprint given by symbol (Button_Switch_SMD:SW_SPST_CK_RS282G05A3)
+    Local override; warning
+    @(121.9000 mm, 131.5000 mm): Footprint SW2
+[footprint_symbol_field_mismatch]: Field 'Datasheet' differs (PCB: '~', Schematic: 'https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5G.pdf')
+    Local override; warning
+    @(121.9000 mm, 131.5000 mm): Footprint SW2
+[net_conflict]: Pad net (rst) doesn't match net given by schematic (GND)
+    Local override; warning
+    @(126.2050 mm, 131.5000 mm): Pad 2 [rst] of SW2 on F.Cu
+[net_conflict]: No pad found for pin 3 (NRST) in schematic
+    Local override; warning
+    @(121.9000 mm, 131.5000 mm): Footprint SW2
+[net_conflict]: No pad found for pin 4 (NRST) in schematic
+    Local override; warning
+    @(121.9000 mm, 131.5000 mm): Footprint SW2
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(136.9000 mm, 95.0000 mm): Footprint U11
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(150.9000 mm, 95.0000 mm): Footprint U12
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(143.9000 mm, 86.5000 mm): Footprint U13
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(170.9000 mm, 95.0000 mm): Footprint U14
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(170.9000 mm, 91.0000 mm): Footprint U15
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(170.9000 mm, 99.0000 mm): Footprint U16
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(126.4000 mm, 103.0000 mm): Footprint U29
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(121.4000 mm, 103.0000 mm): Footprint U30
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(131.4000 mm, 101.5000 mm): Footprint U31
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(122.9000 mm, 99.0000 mm): Footprint U32
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(131.4000 mm, 105.5000 mm): Footprint U35
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(122.9000 mm, 107.0000 mm): Footprint U36
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(144.9000 mm, 111.0000 mm): Footprint U39
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(149.9000 mm, 109.0000 mm): Footprint U40
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(154.9000 mm, 110.5000 mm): Footprint U41
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(144.9000 mm, 115.0000 mm): Footprint U42
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(139.9000 mm, 113.0000 mm): Footprint U43
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(149.9000 mm, 113.0000 mm): Footprint U44
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(146.4000 mm, 137.0000 mm): Footprint U64
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(155.9000 mm, 122.0000 mm): Footprint U70
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(155.9000 mm, 126.0000 mm): Footprint U71
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(160.9000 mm, 122.0000 mm): Footprint U72
+[net_conflict]: No pad found for pin 7 in schematic
+    Local override; warning
+    @(160.9000 mm, 126.0000 mm): Footprint U73
+
+** Ignored checks **
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
